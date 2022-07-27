@@ -1,24 +1,12 @@
-# README
+# Bookstore Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+Uses ruby version `3.1.2`. You can setup via `rbenv` or `rbenv`. I have a `docker-compose.yml` file in there but that only starts up a postgres db,
+not the actual application. 
 
-* Ruby version
+## Seeding
 
-* System dependencies
+`bin/rails db:seed` should populate you two stores and a couple books attached.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Johnny.

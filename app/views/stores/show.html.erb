@@ -2,6 +2,15 @@
 
 <%= render @store %>
 
+<h3>Books</h3>
+<div>
+  <% @store.books.each do |book| %>
+    <div>
+      <%= render book %>
+    </div>
+  <% end %>
+</div>
+
 <div>
   <%= link_to "Edit this store", edit_store_path(@store) %> |
   <%= link_to "Back to stores", stores_path %>
