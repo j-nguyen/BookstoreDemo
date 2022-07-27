@@ -8,5 +8,6 @@ not the actual application.
 ## Seeding
 
 `bin/rails db:seed` should populate you two stores and a couple books attached.
+`bin/rails db:seed:replant` reseeds data for you (truncates db)
 
 Johnny.
